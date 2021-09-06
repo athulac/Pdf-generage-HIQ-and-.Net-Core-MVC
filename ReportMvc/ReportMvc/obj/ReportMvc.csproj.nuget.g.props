@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Athula\.nuget\packages\</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.1</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="C:\Users\Athula\.nuget\packages\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <None Include="$(NuGetPackageRoot)hiqpdf_ng_netcore\12.0.0\contentFiles\any\any\HiQPdf.dep" Condition="Exists('$(NuGetPackageRoot)hiqpdf_ng_netcore\12.0.0\contentFiles\any\any\HiQPdf.dep')">
+      <NuGetPackageId>HiQPdf_NG_NetCore</NuGetPackageId>
+      <NuGetPackageVersion>12.0.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HiQPdf.dep</TargetPath>
+      <Private>True</Private>
+      <Link>HiQPdf.dep</Link>
+    </None>
+    <None Include="$(NuGetPackageRoot)hiqpdf_ng_netcore\12.0.0\contentFiles\any\any\HiQPdf.rda" Condition="Exists('$(NuGetPackageRoot)hiqpdf_ng_netcore\12.0.0\contentFiles\any\any\HiQPdf.rda')">
+      <NuGetPackageId>HiQPdf_NG_NetCore</NuGetPackageId>
+      <NuGetPackageVersion>12.0.0</NuGetPackageVersion>
+      <NuGetItemType>None</NuGetItemType>
+      <Pack>false</Pack>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <TargetPath>HiQPdf.rda</TargetPath>
+      <Private>True</Private>
+      <Link>HiQPdf.rda</Link>
+    </None>
+  </ItemGroup>
+</Project>
